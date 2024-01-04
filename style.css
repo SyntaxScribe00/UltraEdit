@@ -1,0 +1,164 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+}
+
+header {}
+
+.logo {
+    /* width: 50px;
+    height: 40px; */
+    /* background-color: blueviolet; */
+
+}
+
+.logo .home {
+    width: 230px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #222222;
+    font-family: "Segoe UI";
+}
+
+.right_section .nav_list {
+    display: flex;
+    gap: 35px;
+}
+
+.right_section .nav_list .item {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.right_section .nav_list .item span {
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    margin: 75px;
+}
+
+.first span {
+    font-size: 48px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    color: #222222;
+    line-height: 1.3em;
+}
+
+.first span img {
+    width: 100px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.first p {
+    font-size: 24px;
+    width: 71vw;
+    text-align: center;
+    color: #222222;
+}
+
+.btn {
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 14px 16px;
+    margin: 14px 0;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_green {
+    background-color: #5cb85c;
+    text-transform: capitalize;
+}
+.btn_green a{
+    
+    text-decoration: none;
+    color: white;
+}
+.btn_blue{
+    text-transform: capitalize;
+}
+.btn_blue a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.small {
+    /* font-size: 10px; */
+}
+
+.second {
+    max-width: 86vw;
+    margin: auto;
+    /* background-color: aquamarine; */
+
+}
+
+.items {
+    padding: 23px;
+    background-color:#f9f9f9;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.item_lang {
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333;
+    padding-bottom: 30px;
+}
+.download:nth-child(1){
+    font-size: 23px;
+}
+.download img{
+   width: 60px;
+   /* padding: 0 10px; */
+}
+.download small sub{
+    font-size: 14px;
+}
+@media screen and (max-width:1080px) {
+    .grid{
+        /* background-color: red; */
+        
+        grid-template-columns: 1fr;
+       
+    }
+}
